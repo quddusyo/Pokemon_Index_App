@@ -1,7 +1,25 @@
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
+  justify-content: center;
   min-height: 100vh;
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
+
+.pokemon-info_container {
+  padding: 70px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: capitalize;
+  gap: 50px;
+}
+
+.pokemon-info {
+  font-size: 48px;
+  font-weight: 700;
+}
+.pokemon-info > span {
+  font-weight: 100;
 }

@@ -1,0 +1,21 @@
+.pokemon-images_cards-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.pokemon-images_card {
+    padding: 20px;
+    border: 3px solid rgb(97, 97, 97);
+    background-color: rgba(97, 97, 97, 0.9);
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.pokemon-images_card > img {
+    margin-top: 20px;
+    width: 180px;
+    height: auto;
+}

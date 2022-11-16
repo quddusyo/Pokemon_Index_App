@@ -1,0 +1,8 @@
+input{
+    height: 40px;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 100%;
+    /* remove default input outline style */
+    outline: none; 
+}
