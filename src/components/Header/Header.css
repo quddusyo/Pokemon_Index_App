@@ -1,0 +1,32 @@
+.header_container {
+    width: 100vw;
+    height: 150px;
+    background: #000;
+    box-sizing: border-box;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    box-shadow: rgba(0, 0, 54, 0.9) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
+}
+
+.header_logo-container {
+    object-fit: contain;
+}
+
+.header_logo-container > img {
+    height: 150px;
+    width: auto;
+}
+
+.header_search-container {
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.header_search-container > form{
+    width: 100%;
+}

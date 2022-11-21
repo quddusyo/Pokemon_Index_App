@@ -3,6 +3,7 @@ input{
     font-size: 22px;
     border-radius: 5px;
     width: 100%;
+    box-sizing: border-box;
     /* remove default input outline style */
     outline: none; 
 }

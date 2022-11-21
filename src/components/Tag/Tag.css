@@ -1,0 +1,16 @@
+.type-tag_section-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.type-tag_container {
+    border: 2px solid white;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    min-width: fit-content;
+    height: 40px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

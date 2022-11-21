@@ -15,11 +15,13 @@ const SearchBar = ({ url ,setData, id, setId }) => { // passing props thorugh
         console.res('Invalid pokemon name or ID');
       }
       setId(e.target.value);
+      e.target.value='';
       axios.get(url).then(function(res){
         setData(res.data);
       }).catch(function (err) {
         console.log(err)
       })
+
       return;
     }
   }
